@@ -14,5 +14,13 @@ int main(){
    char myLetter = 'D';       // Character
     printf("%f\n",myFloatNum); 
     printf("%c\n",myLetter); 
+    printf("My Number is: %f\n",myFloatNum);
+
+   
+    int x, y, z;
+    x = y = z = 50;
+    printf("%d", x + y + z);
+ 
+
    return 0;  
 };
