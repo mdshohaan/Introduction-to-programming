@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-  printf("Irfanul Islam\n");
-  printf("University of Dhaka\n");
-  printf("%d\n",10+12); 
-  printf("%d\n",10-12); 
+ int a ;
+ scanf("%d",&a) ;
+ printf("The Number is %d\n",a);
+ printf("Hello world\n");
   return 0 ;
 } 
 //  A computer program is a list of "instructions" to be "executed" by a computer.
