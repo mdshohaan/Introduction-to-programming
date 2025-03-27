@@ -12,8 +12,23 @@ printf("%d\n", myNum);
 printf("%f\n", myFloatNum);
 printf("%c\n", myLetter);
 
+double myDouble = 3.998;
+printf("%lf\n",myDouble);
+
+char greetings[]="Hello world";
+printf("%s\n",greetings);
+
 myNum= myFloatNum;
 printf("%d\n",myNum);
+
+float myFloatNumber = 3.5;
+printf("%.2f\n",myFloatNumber);
+
+float myFloat = 9;
+printf("%f\n",myFloat);
+
+int myInt = 9.99;
+printf("%d\n",myInt);
 
   return 0;
 }
