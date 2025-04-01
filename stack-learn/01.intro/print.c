@@ -5,8 +5,11 @@ int main(){
  scanf("%d",&a) ;
  printf("The Number is %d\n",a);
  printf("Hello world\n");
+ float myFloat = 9;
+
+printf("%f", myFloat); // 9.000000
   return 0 ;
-} 
+}  
 /*
   A computer program is a list of "instructions" to be "executed" by a computer.
  
