@@ -1,9 +1,9 @@
  #include<stdio.h>
 
- int main(){
-  int a ;
-  scanf("%d",& a); 
-  printf("%d",a);
-
-  return 0;
- }
+ int main()
+ {
+    long long int a = 10000000000000;
+    printf("%lld",a);
+  
+    return 0;
+ }  
