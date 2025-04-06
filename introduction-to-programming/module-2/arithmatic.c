@@ -2,8 +2,16 @@
 int main()
 {
     int a = 10,b = 20;
-    int sum = a+b;
-    printf("%d",sum);
+    float c = 15;
 
+    int sum = a+b;
+    printf("summation = %d\n",sum);  
+
+    int sub = a - b;
+    printf("subtraction = %d\n",sub);
+    
+    float div = c / a ;
+    printf("division = %f",div);
+    
     return 0 ;
 }
