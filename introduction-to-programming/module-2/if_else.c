@@ -2,15 +2,10 @@
 int main()
 {
     int tk ;
-    scanf("%d",& tk);
-    
-    if(tk >= 100)
-    {
-      printf("Eat");
-    } else 
-    {
-      printf("did not eat");
-    }
+    scanf("%d", & tk);
+
+    tk >= 100 ? printf("Eat"): printf("did not eat");
+   
 
     return 0;
 }
