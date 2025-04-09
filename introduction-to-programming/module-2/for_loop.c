@@ -1,11 +1,13 @@
 #include<stdio.h>
 
-int main(){ 
-    for (int i = 1; i <=5; i++)
+int main(){  
+    for (int i = 100; i >=1 ; i--)
     {
-      printf("Hello\n");
+      printf("%d \n",i);
     }
     
 
     return 0;
 }
+
+
