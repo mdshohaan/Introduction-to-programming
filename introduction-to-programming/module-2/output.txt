@@ -1,4 +1,1 @@
-Even: 0
-Odd: 5
-Positive: 0
-Negative: 5
+5
