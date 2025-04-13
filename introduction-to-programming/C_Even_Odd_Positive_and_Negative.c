@@ -13,7 +13,7 @@ int main() {
     }
     if (x > 0) {
       pos++;
-    } else {
+    } else if (x < 0) {
       neg++;
     }
   }
