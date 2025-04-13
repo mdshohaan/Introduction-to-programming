@@ -3,11 +3,11 @@
 int main() {
     char ch ;
     scanf("%c",&ch); 
-    if(ch >= 'a' && ch <= 'z' ){  // a - z
-        ch = ch - 32;
+    if(ch >= 'a' && ch <= 'z' ){  // if (a - z)
+        ch = ch - 32; // to convert UpperCase
         printf("%c",ch);
     } else {
-        ch = ch + 32;
+        ch = ch + 32; // to convert LowerCase
         printf("%c",ch);
     }
      
