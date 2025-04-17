@@ -4,18 +4,15 @@ int main() {
   int n;
   scanf("%d", &n);
 
-  int mod = n % 10;
-  // printf("%d\n", mod);
-  int div = n / 10;
-  // printf("%d\n", div);
+  int first = n / 10;
+  int last = n % 10;
 
-  if (n % div == 0) {
-    printf("YES");
-  } else if (div % mod == 0) {
-    printf("YES");
-
+  if (last == 0) { // corner case handling
+    printf("YES\n");
+  } else if (first % last == 0 || last % first == 0) {
+    printf("YES\n");
   } else {
-    printf("NO");
+    printf("NO\n");
   }
 
   return 0;

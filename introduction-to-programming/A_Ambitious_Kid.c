@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdio.h>
 
 int main() {
@@ -9,6 +10,7 @@ int main() {
     if (x < 0) {
       x = x * -1;
     }
+    // x = abs(x);
     if (x < min_number) {
       min_number = x;
     }
