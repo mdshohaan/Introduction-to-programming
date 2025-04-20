@@ -3,6 +3,9 @@
     "stdbool.h": "c",
     "stdio.h": "c",
     "bitset": "c",
-    "unordered_map": "c"
+    "unordered_map": "c",
+    "limits": "c",
+    "ratio": "c",
+    "algorithm": "c"
   }
 }
