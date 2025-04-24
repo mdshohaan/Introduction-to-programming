@@ -1,14 +1,23 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-  int t, s;
+  int t;
   scanf("%d", &t);
 
-  for (int i = 0; i < t; i++) {
-    char s[100];
+  for (int i = 1; i <= t; i++) {
+    char s[101];
+
     scanf("%s", s);
-    for (int i = 0; s[i] != '\0'; i++) {
-      printf("%s", s[i]);
+    if (strlen(s) >= 10) {
+      int count = strlen(s) - 2;
+      char first = s[0];
+      char last = s[strlen(s) - 1];
+
+      printf("%c%d%c\n", first, count, last);
+    } else {
+      // If string is too short, just print it as is
+      printf("%s\n", s);
     }
   }
 

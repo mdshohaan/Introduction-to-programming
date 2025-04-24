@@ -6,6 +6,9 @@
     "unordered_map": "c",
     "limits": "c",
     "ratio": "c",
-    "algorithm": "c"
-  }
+    "algorithm": "c",
+    "stdlib.h": "c",
+    "string.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled"
 }
