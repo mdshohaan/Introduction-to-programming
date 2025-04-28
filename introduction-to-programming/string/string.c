@@ -7,8 +7,10 @@ int main() {
     // printf("%c", a[i]);
   }
   for (int i = 0; i < 4; i++) {
-    printf("%c\n", a[i]);
+    // printf("%c\n", a[i]);
   }
+  char s[] = 'abcs';
+  char s1 = {'a', 'b'};
 
   return 0;
 }

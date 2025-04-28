@@ -4,13 +4,15 @@ int main() {
   int t;
   scanf("%d", &t);
 
-  int arr[t];
-
   for (int i = 0; i < t; i++) {
-    scanf("%d ", &arr[i]);
+    int w, h;
+    scanf("%d %d", &w, &h);
+    if (w == h) {
+      printf("Square\n");
+    } else {
+      printf("Rectangle\n");
+    }
   }
-
-  int w = 0;
 
   return 0;
 }
