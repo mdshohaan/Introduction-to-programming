@@ -9,7 +9,7 @@ int main() {
   int len = strlen(s);
   for (int i = 0; i < len; i++) {
     // printf("%d ", s[i]); // 97 97 97 98 98 99(charc to number convrt)
-    int idx = s[i] - 97;
+    int idx = s[i] - 97; // s[i] -'a';
     // printf("%d ", idx); // 0 0 0 1 1 2
     freq[idx]++;
   }
