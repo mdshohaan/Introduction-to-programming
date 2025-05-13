@@ -9,7 +9,9 @@
     "algorithm": "c",
     "stdlib.h": "c",
     "string.h": "c",
-    "limits.h": "c"
+    "limits.h": "c",
+    "queue": "c",
+    "stack": "c"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
